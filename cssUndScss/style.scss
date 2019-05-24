@@ -49,34 +49,175 @@
 
 // Start Main
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#main {
+	height: 800px;
 	
-// Start Footer
+	#main-line-one {
+		display:flex;
+		justify-content: flex-start;
+		color:white;
+		font-weight:bold;
+		font-size: 40px;
+	}
+	// START LINE 2 of MAIN
+	#main-line-two {
+		display:flex;
+		justify-content: center;
+		// GREY BOX WITHIN LINE 2 MAIN
+		#main-line-two-calc-container {
+			background-color: grey;
+			height:70%;
+			width: 70%;
+			border:2px solid black;
 
-	#footer {
-		margin-top: 400px;
-		background-color:grey;
+			#calc-container-line-one {
+				display: flex;
+				justify-content: center;
+			}
+
+			#calc-container-line-two {
+				display: flex;
+				justify-content: space-around;
+				label, input {
+					display: block;
+				}
+			}	
+
+			#calc-container-line-three {	
+				display: flex;
+				justify-content: space-around;
+				label, select {
+					display: block;
+				}
+
+				select {
+					width:160px;
+				}
+
+			}
+
+			#calc-container-line-four {	
+				display: flex;
+				justify-content: center;
+				label, input {
+					display: block;
+				}
+
+			}
+
+		
+			#calc-container-line-five{
+				display: flex;
+				justify-content: center;
+
+
+			}
+
+
+
+		}		
+
+	}
+
+
+} 
+
+// END MAIN
+	
+// Start sub main1
+
+	#sub-main1 {
+		margin-top: 1px;
+		background-color:silver;
 		display: flex;
 		justify-content: center;
 		width:100%;
 	}
 
-// ENDE FOOTER
+
+	#sub-main2 {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		.sub-main2-box{
+			margin-top: 10px;
+			border:2px solid black;
+			width:30%;
+			height:10%;
+			
+		}
+	}
+
+footer {
+		margin-top:30px;
+		height:200px;
+		width:100%;
+		border:4px solid black;
+		background-color:black;	
+			
+			// START FIRST LINE FOOTER
+			
+			#footer-line1 {
+				height:70px;
+				width: 100%;
+				border:4px solid black;
+				display: flex;
+				justify-content: flex-start;
+
+
+				ul {
+						display:block;
+						list-style-type: none;
+						margin: 0; 
+						padding: 0; 
+						position: absolute;
+						min-width:300px;
+						height:10%;
+						display:block;
+				} 
+
+
+				li {
+						float:left;
+				}  
+
+				li a {
+				display: block;
+				color: white;
+				padding: 14px 16px;
+				text-decoration: none;
+				}
+			}
+			// END FIRST LINE FOOTER
+
+			// START SECOND LINE FOOTER
+
+			#footer-line2 {
+				display:flex;
+				justify-content: flex-end;
+			}
+			// END SECOND LINE FOOTER
+
+
+			// START THIRD LINE FOOTER
+
+			#footer-line3 {
+				display:flex;
+				justify-content: center;
+				color:white;
+			}
+			// END SECOND LINE FOOTER
+		}
+
+
+
+
+
+
+
+
+
 
 
 }

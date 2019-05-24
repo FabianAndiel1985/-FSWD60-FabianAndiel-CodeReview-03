@@ -4,12 +4,11 @@
 	<title></title>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="cssUndScss/style.css">
-	<!-- JS -->
-	<script src="JS/js.js"></script>
+
 	<style type="text/css">
 
 #main {
-  background-image: url('traffic.jpg');
+  background-image: url('img/traffic.jpg');
   background-repeat: no-repeat;
 
   background-size: 100%;  
@@ -41,26 +40,131 @@
 		</nav>
 
 		<div id="main">
-			
-			
+			<div id="main-line-one">
+				<p> Car insurance</p>
+			</div>
 
+			<div id="main-line-two">
+				<div id="main-line-two-calc-container">
+					
+					<div id="calc-container-line-one">
+						<p>Great coverage begins<br>
+						   with a custom quote</p>
+					</div>
+					
+					<div id="calc-container-line-two">
+						
+						<div>
+							<label>Your name</label>
+							<input type="" name="" id="userName">
+						</div>
+							
+						<div>
+							<label>Age</label>
+							<input type="" name="" id="userAge">
+						</div>
 
+					</div>
+					
+					<div id="calc-container-line-three">
 
+						<div>
+
+							<label> Country </label>
+							<select name="countries" id="userCountry">
+							  <option value="Austria">Austria</option>
+							  <option value="Hungary">Hungary</option>
+							  <option value="Greece">Greece</option>
+							</select>
+						</div>
+							
+						<div>
+							<label> Horsepower of your car </label>
+							<input type="" name=""
+							id="userHorsepower">
+						</div>
+
+					</div>
+					
+					<div id="calc-container-line-four">
+						<button id="calcBtn"> Calculate </button>
+						
+					</div>
+
+					<div id="calc-container-line-five">
+						<p id="result"> </p>
+					</div>
+
+					<div id="calc-container-line-six">
+						
+					</div>
+				</div>
+			</div>
 
 		</div>
 	
 	<!-- <footer> -->
 
-		<div id="footer">
+		<div id="sub-main1">
 			<p>
 				Un-complicating car coverage <br>
 				Undertanding your coverage options shouldn`t be so hard. <br>
 				We'll guide you through available coverage types,<br> starting with who and what is covered
 			</p>
 		</div>
+		
 
-	<!-- </footer> -->
+		<div id="sub-main2">
+
+			<div class="sub-main2-box">
+				<h3>What comes standard</h3>
+				<h4>The converage you need</h4>
+				<ul>
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+			<h5> Benefits</h5>
+			<p>12-month rate guarantee|24/7 customer<br>
+			service|Lifetime Repair Gurantee</p>
+			</div>
+
+			<div class="sub-main2-box">
+				<h3>Add-on protection & coverage</h3>
+				<h4>For more peace of mind</h4>
+				<ul>
+					<li>Better Car Replacement</li>
+					<li>Towing & Labor</li>
+					<li>Rental Car Coverage</li>
+				</ul>
+			<h5>Earned Benefits</h5>
+			<p>Accident Forgiveness|24/7 customer<br>
+			service&sup1;|Lifetime Repair Gurantee&trade;</p>
+			</div>	
+		</div>
+
+		<footer>
+			<div id="footer-line1">
+				<ul id="footer-line1-ul">
+					<li><a href="">Home</a></li>
+					<li><a href="">Team</a></li>
+				</ul>
+			</div>
+			<div id="footer-line2">
+					<figure>
+						<img src="img/logo-inv.png">
+					</figure>
+			</div>
+			<div id="footer-line3">
+				<p>
+					Fabian Andiel - Code Factory 2019
+				</p>	
+			</div>	
+	</footer>
 </div>
+
+	<!-- JS -->
+	<script src="JS/js.js"></script>
 
 
 </body>
