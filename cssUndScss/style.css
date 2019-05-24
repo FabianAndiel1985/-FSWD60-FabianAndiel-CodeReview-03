@@ -1,4 +1,32 @@
-body {
-  background-color: black; }
+#all-container header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #E4E4E4; }
+  #all-container header #header-img-1-container {
+    flex-grow: 1; }
+    #all-container header #header-img-1-container #insuranceLogo {
+      width: 100px; }
+#all-container nav {
+  background-color: brown; }
+  #all-container nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  #all-container nav li {
+    float: left; }
+  #all-container nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 8px;
+    background-color: brown; }
+#all-container #footer {
+  margin-top: 400px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,3 @@
-window.onload= function(){
-	alert("Welcome to my third code review Habibi");
-}
+// window.onload= function(){
+// 	alert("Welcome to my third code review Habibi");
+// }

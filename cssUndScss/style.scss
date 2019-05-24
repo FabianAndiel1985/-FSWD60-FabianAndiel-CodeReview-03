@@ -1,3 +1,84 @@
-body {
-	background-color: black;
+#all-container {
+	// height:100%;
+	// width:100%;
+	// border:3px solid black;
+// START HEADER
+	header {
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #E4E4E4;
+	
+	#header-img-1-container {
+		flex-grow: 1;
+		#insuranceLogo {
+			// margin-left:20px;
+			width:100px;
+			}
+		}
+	}
+// ENDE HEADER
+
+// START NAVBAR
+
+	nav {
+		// border:7px solid black;
+		background-color: brown;
+		
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+
+		li {
+		  float: left;
+		}
+
+		li a {
+		  text-decoration: none;
+		  color:white;	
+		  display: block;
+		  padding: 8px;
+		  background-color: brown;
+		}
+	}
+
+// ENDE NAVBAR
+
+// Start Main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+// Start Footer
+
+	#footer {
+		margin-top: 400px;
+		background-color:grey;
+		display: flex;
+		justify-content: center;
+		width:100%;
+	}
+
+// ENDE FOOTER
+
+
 }
+
+
