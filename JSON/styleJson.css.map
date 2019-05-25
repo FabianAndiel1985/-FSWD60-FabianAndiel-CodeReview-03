@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAC,aAAc;EACV,MAAM,EAAE,eAAe;;AAG1B,EAAG;EACF,KAAK,EAAC,gBAAgB",
+"sources": ["styleJson.scss"],
+"names": [],
+"file": "styleJson.css"
+}

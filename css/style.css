@@ -43,12 +43,14 @@
         justify-content: center; }
       #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-two {
         display: flex;
-        justify-content: space-around; }
+        justify-content: space-around;
+        flex-wrap: wrap; }
         #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-two label, #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-two input {
           display: block; }
       #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-three {
         display: flex;
-        justify-content: space-around; }
+        justify-content: space-around;
+        flex-wrap: wrap; }
         #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-three label, #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-three select {
           display: block; }
         #all-container #main #main-line-two #main-line-two-calc-container #calc-container-line-three select {

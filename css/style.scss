@@ -78,6 +78,7 @@
 			#calc-container-line-two {
 				display: flex;
 				justify-content: space-around;
+				flex-wrap: wrap;
 				label, input {
 					display: block;
 				}
@@ -86,6 +87,7 @@
 			#calc-container-line-three {	
 				display: flex;
 				justify-content: space-around;
+				flex-wrap: wrap;
 				label, select {
 					display: block;
 				}
