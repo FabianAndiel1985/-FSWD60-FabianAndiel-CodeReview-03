@@ -1,8 +1,29 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width:646px) {
     body {
         background-color: lightgreen;
+
+		nav {
+			display: flex;
+			justify-content: center;
+			#nav-list-container { 
+			 }
+		}
+
+		footer  {
+
+			// background-color: yellow;
+
+			/*COACH: Why doesn't this work?*/
+
+			#footer-line1 {
+				display: flex;
+				justify-content: center;
+				
+			}		
+		}
     }
 }
+
 
 
 #all-container {
