@@ -1,3 +1,7 @@
+function size() {alert(window.innerWidth)};
+
+
+
 document.getElementById("calcBtn").addEventListener("click", function(){ 
 	
 	var horse_power  = Number(document.getElementById("userHorsepower").value);
